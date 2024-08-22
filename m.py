@@ -341,7 +341,6 @@ def welcome_plan(message):
 /broadcast : Broadcast a Message.
 /clearlogs : Clear The Logs File.
 
-'''
     bot.reply_to(message, response)
 
 
