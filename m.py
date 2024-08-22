@@ -314,7 +314,7 @@ By
 @bot.message_handler(commands=['plan'])
 def welcome_plan(message):
     user_name = message.from_user.first_name
-    response = f'''{user_name}, Brother Only 1 Plan Is Powerfull Then Any Other Ddos !!:
+    response = f'''{user_name}, Brother Only 1 Plan Is Powerfull Then Any Other Ddos 
 
 Vip :
 -> Attack Time : 200 (S)
@@ -326,7 +326,7 @@ Day-->50 Rs
 Week-->200 Rs
 Month-->800 Rs
 Permanent-->1200 Rs
-'''
+''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['admincmd'])
