@@ -6,13 +6,13 @@ import asyncio
 
 API_TOKEN = '7543592031:AAHnlEqSQg2MC_Dimz8Hi71iMD8GfYrweTM'
 ADMIN_ID = '6704542925'
-MAX_RESTARTS = 5
-RESTART_PERIOD = 60  # Seconds
+MAX_RESTARTS = 50
+RESTART_PERIOD = 5  # Seconds
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 bot = Bot(API_TOKEN)
 
-async def start_bot():
+async def start_bot(m.py):
     """Start the bot script as a subprocess."""
     process = await asyncio.create_subprocess_exec('python3', 'm.py')
     return process
@@ -61,5 +61,4 @@ if __name__ == '__main__':
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
-        logging.info("Zaher script terminated by user.")
-
+        logging.info("Nand script terminated by user.")
